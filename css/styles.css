@@ -139,6 +139,8 @@ a {
   padding: 188px 0;
   background-image: url(/images/hero/people-office\ 1.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title-h {
   color: #fff;
