@@ -457,17 +457,19 @@ a {
   gap: 16px;
   margin-top: 16px;
 }
-.container-box {
-  display: flex;
-}
+
 .box {
   display: flex;
-  gap: 120px;
+  align-items: center;
+  justify-content: center;
+
   padding-left: 156px;
 }
 .social-items-footer {
   width: 40px;
   height: 40px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .social-link-footer {
   display: flex;
@@ -495,4 +497,5 @@ a {
 }
 .boxbox {
   align-items: baseline;
+  margin-right: 120px;
 }
