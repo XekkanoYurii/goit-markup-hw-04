@@ -329,12 +329,11 @@ a {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover {
-  background-color: #404bbf;
-}
+.social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
 }
+
 .social-link .active {
   background-color: #404bbf;
 }
@@ -471,9 +470,7 @@ a {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link-footer:hover {
-  background-color: #31d0aa;
-}
+.social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
