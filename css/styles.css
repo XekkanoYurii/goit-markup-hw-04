@@ -284,6 +284,11 @@ a {
   margin-top: 8px;
 }
 .social-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+
   width: 40px;
   height: 40px;
 }
@@ -291,13 +296,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
-  width: 100%;
-  height: 100%;
-
   background-color: #4d5ae5;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
+
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
@@ -396,12 +400,10 @@ a {
   padding-left: 156px;
 }
 .social-items-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  color: #f4f4f4;
   background-color: #4d5ae5;
 }
 .social-items-footer:hover,
