@@ -447,9 +447,6 @@ a {
 
 .container .footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 120px;
   align-items: baseline;
 }
 .footer {
@@ -481,12 +478,8 @@ a {
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 16px;
-  align-items: baseline;
-  justify-content: center;
 }
-.boxbox {
+.box-link-footer {
   display: flex;
-  align-items: baseline;
   justify-content: center;
-  width: 208px;
 }
