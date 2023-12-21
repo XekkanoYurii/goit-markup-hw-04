@@ -470,6 +470,9 @@ a {
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
+.social-link-footer .active {
+  background-color: #31d0aa;
+}
 .footer-social-media {
   color: #ffffff;
   letter-spacing: 0.02em;
