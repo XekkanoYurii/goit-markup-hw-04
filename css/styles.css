@@ -173,6 +173,7 @@ a {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/peopleoffice.jpg);
+  max-width: 1440px;
 }
 .hero-title-h {
   color: #fff;
